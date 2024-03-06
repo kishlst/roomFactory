@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0px;
+    background-color: #a37575;
+    height: 100%;
+    background-color: black;
+}
+
+.content {
+    height: 100%;
+    display: flex;
+}
+
+.left_menu {
+    width: 346px;
+    background-color: #444;
+    height: 100%;
+}
+
+.room {
+    display: flex;
+    flex-wrap: wrap;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+.youtube {
+    margin-top: 30px;
+    margin-left: 28px;
+    width: 150px;
+    height: 70px;
+
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+/* Желательно не путать top(верх) и button(низ). */
+.roomP {
+    margin-left: 30px;
+    color: white;
+    font-size: 45px;
+}
+
+.factory {
+    color: white;
+    margin-left: 70px;
+    font-size: 40px;
+    margin-top: 0px;
+    letter-spacing: 10px;
+    margin-bottom: 45px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+.romFac:hover {
+    color: #a37575;
+}
+
+.photo_public {
+    /* Схлопывание margin. */
+    /* margin-top: 10px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.vk_block {
+    display: flex;
+    background-color: #333;
+    padding: 5px;
+}
+
+.instagram_block {
+    display: flex;
+    background-color: #333;
+    padding: 5px;
+    width: 248px;
+}
+
+.youtube_block {
+    display: flex;
+    background-color: #333;
+    padding: 5px;
+    padding-top: 5px;
+    width: 248px;
+}
+
+.vk_photo, .instagram, .youtube_photo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 80px;
+}
+
+.work_people {
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+    margin-top: 10px;
+    height: 100%;
+}
+
+.actor {    
+    color: white;
+    border: 3px solid black;
+    border-radius: 50px;
+
+    margin-bottom: 0px;
+    margin-left: 45px;
+
+    padding: 20px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 22px;
+    background-color: #333;
+    width: 210px;
+    height: 100%;
+}
+
+.actors, .operators, .authors {
+    text-align: center;
+    margin-right: 20px;
+}
+
+
+.operator {
+    margin-top: 50px;
+}
+
+.author {
+    margin-top: 50px;
+}
+
+.column {
+    color: rgb(172, 172, 172);
+
+    height: 100%;
+    width: 82%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.main {
+    border: 3px solid rgb(129, 116, 116);
+    padding: 50px;
+
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;   
+    margin-bottom: 100px;
+}
+
+.end_site {
+    height: 100%;
+}
+
+.sumbit {
+    margin-top: 350px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(128, 0, 0);
+
+    height: 100px;
+    width: 500px;
+
+    border-radius: 70px;
+
+    font-style: italic;
+    font-weight: 900;
+}
+
+.sumbit:hover {
+    background-color: tomato;
+}
+
+.main:hover {
+    color: #333;
+    border: 3px solid rgb(32, 32, 32);
+
+    text-decoration: underline;
+}
+
+/* Что делаем на что наводимся. */
+.main:hover::first-line {
+    color: rgb(94, 94, 161);
+}
+
+.niar {
+    color: rgb(94, 94, 161);
+}
+
+.string:hover {
+    color: red;
+}
+
+.mainString {
+    color: chartreuse;
+}
+
+.mainString:hover {
+    color: rgb(0, 89, 255);
+}
